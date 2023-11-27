@@ -1,0 +1,165 @@
+
+[SierraUp]
+//--------------------------------------------------------------------
+// SierraUp.cfg: Configuration file for directing SierraUp to Update
+// specific applications.
+//
+//--------------------------------------------------------------------
+
+SierraUpInstalled=1
+
+ProductName "Half-Life"
+DisplayName "Half-Life"
+PatchFolder ".\update"       // Do not include trailing backslash.
+CurrentVersion "1.1.0.7"
+DirectoryServer "half-life.west.won.net:6003"
+DirectoryServer "half-life.east.won.net:6003"
+DirectoryServer "half-life.central.won.net:6003"
+
+//--------------------------------------------------------------------
+// Recommended fields.
+//
+// PatchTypes ... SierraUp supports client-side patch-list filtering.  
+//                This allows us to restict patches to certain users.
+//                Please set this to "opt" if you wish to support 
+//                optional patches (we strong recommend it).
+//--------------------------------------------------------------------
+PatchTypes "opt"
+
+//--------------------------------------------------------------------
+// Internationalization support.
+//
+// These files are included with SierraUp.
+//
+// Do not use this field for English.
+//--------------------------------------------------------------------
+//LanguageDllFile "SuFR.dll" // French
+//LanguageDllFile "SuDE.dll" // German
+//LanguageDllFile "SuIT.dll" // Italian
+//LanguageDllFile "SuES.dll" // Spanish
+
+//--------------------------------------------------------------------
+// Custom UI.
+//
+// If you have a custom resource dll to re-skin the UI, specify and
+// enable it here. 
+//
+// Use the PatchDescriptionExe setting to replace the default 
+// executable used to display update descriptions. Notepad is the 
+// default.
+//--------------------------------------------------------------------
+ResourceDllFile "sierraupres.dll"
+//PatchDescriptionExe "notepad.exe"
+
+//--------------------------------------------------------------------
+// To support internationalization (or custom flavors), set and enable 
+// this option.  Leave it disabled for the default english version.
+//--------------------------------------------------------------------
+//ExtraConfig "French"
+
+//--------------------------------------------------------------------
+// Timeouts.
+//
+// SierraUp will wait up to two minutes for some interal socket 
+// communications.  You can over-ride the defaults by setting these 
+// paramaters (time is in milliseconds):
+//   MotdTimeout ............... How long to wait for the message of 
+//                               the day.
+//   VersionTimeout ............ How long to wait for the current 
+//                               version.
+//   PatchTimeout .............. How long to wait for patch 
+//                               information.
+//   PatchDescriptionTimeout ... How long to wait for patch 
+//                               description files to download.
+// Generally speaking, we suggest you use the two minute default. 
+// You should never set these values under 30 seconds (30000 ms).
+//--------------------------------------------------------------------
+//MotdTimeout 30000
+//VersionTimeout 60000
+//PatchTimeout 60000
+//PatchDescriptionTimeout 45000
+
+//--------------------------------------------------------------------
+// To enable the Help buttons on certain dialogs, enable these 
+// options:
+//
+// WelcomeDlgHelpFile ......... Help file to display if the user 
+//                              presses the Help button on the 
+//                              Welcome (main) dialog.
+// OptionalPatchDlgHelpFile ... Help file to display if the user 
+//                              presses the Help button on the 
+//                              Optional Patch dialog.
+// SelectDlgHelpFile .......... Help file to display if the user 
+//                              presses the Help button on the Select 
+//                              Host dialog.
+// ProxyDlgHelpFile ........... Help file to display if the user 
+//                              presses the Help button on the Proxy 
+//                              dialog.
+// DownloadDlgHelpFile ........ Help file to display if the user 
+//                              presses the Help button on the 
+//                              Download dialog.
+// VisitHostDlgHelpFile ....... Help file to display if the user 
+//                              presses the Help button on the Visit 
+//                              Host dialog.
+// HelpExe .................... Use this setting to specify the 
+//                              executable used to display the Help 
+//                              files.  Notepad is the default.
+//--------------------------------------------------------------------
+//WelcomeDlgHelpFile "your help file"
+//OptionalPatchDlgHelpFile "your help file"
+//SelectDlgHelpFile "your help file"
+//ProxyDlgHelpFile "your help file"
+//DownloadDlgHelpFile "your help file"
+//VisitHostDlgHelpFile "your help file"
+//HelpExe "notepad.exe"
+
+//--------------------------------------------------------------------
+// Using SierraUp as a Launcher (this is not recommended).
+//
+// To use SierraUp as a Launcher set and enable the following options
+//   (as needed):
+// AutoStart ............. Tells SierraUp to automatically press the 
+//                         first "Continue" button.
+// MonitorPatch .......... Tells SierraUp to wait for the update to
+//                         "complete" (not to shut down first).
+// PatchSucceededValue ... If the MonitorPatch option is set, this
+//                         value is used to determine if the patch
+//                         succeeded.
+// LaunchExe ............. Executable to launch if the applicaton is
+//                         up to date.
+// LaunchParams .......... Parameters to pass directly to the launched
+//                         excutable (LaunchExe).  If specified as a
+//                         parameter to SierraUp and in the 
+//                         SierraUp.cfg (this file), both are passed
+//                         to the launched executable.
+// VersionExe ............ When monitoring patches, this is the 
+//                         executable (or DLL) to extract the version 
+//                         from after the patch has suceeded.  It is
+//                         used to dsetermine if another patch is 
+//                         needed.
+//--------------------------------------------------------------------
+//AutoStart
+//MonitorPatch
+//PatchSucceededValue 0 // Whatever value returned that means success.
+//LaunchExe "YourApplication.exe"
+//LaunchParams "Your parameter list"
+//VersionExe "YourApplication.exe"
+
+//--------------------------------------------------------------------
+// If you wish to do some simple patch validation, you can include 
+// this line.  If enabled, this file is checked against the current 
+// version and will force a re-application of an older patch.  This
+// is used to help catch the case where a user aborts the 
+// application of a patch part way through the process.
+//
+// Expected contents of the named file:
+//   [VersionInfo]
+//   CurrentVersion=1.2.0.3 (or whatever the appropriate version is).
+//--------------------------------------------------------------------
+//ValidateVersionFile ".\CurVer.ini"
+
+//--------------------------------------------------------------------
+// If you wish to enable debug logging, enable this option.  Logging
+// information will be written to C:\SierraUpdate.log.
+//--------------------------------------------------------------------
+//Debug
