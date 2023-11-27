@@ -1,0 +1,68 @@
+Error:Failed to load dialog file Resource/UI/ClassMenu.res
+
+
+Function trace:
+CGameUI::Start
+CGameUI::Initialize
+CBaseUI::Start
+CBaseUI::Initialize
+Host_Init
+Host_Shutdown
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonclickrelease.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+Netchan_Clear reliable_ack  0
+Netchan_Clear reliable_seq  0
+CGameUI::ActivateGameUI
+CGameUI::HideGameUI
+Host_Reconnect_f() end
+Netchan_Clear reliable_ack  1
+Netchan_Clear reliable_seq  1
+SCR_BeginLoadingPlaque
+CGameUI::StartProgressBar
+CGameUI::ActivateGameUI
+Host_Reconnect_f() begin
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()

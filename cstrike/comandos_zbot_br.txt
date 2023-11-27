@@ -1,0 +1,94 @@
+--- CONTROLE DOS BOTS ---
+bot_add_ct
+
+bot_add_t
+
+bot_add -> Faz com que um bot seja adicionado ao jogo. o "bot_add" adicionará um bot à equipe especificada pelo "bot_join_team" cvar. o "bot_add_t" e o "bot_add_ct" forçam o bot nas equipes respectivas.
+
+bot_kill <nome, "all"> -> Este comando faz é pra matar um bot especifico, a keyword "all" - faz com que todos os bots do jogo sejam mortos.
+
+bot_kick <nome, "all"> -> Este comando faz é pra kickar um bot especifico, a keyword "all" - faz com que todos os bots do jogo sejam kickados.
+
+bot_knives_only -> Este comando deixa os bots soh de faca.
+
+bot_pistols_only -> Este comando deixa os bots soh de pistolas.
+
+bot_snipers_only -> Este comando deixa os bots soh de snipers.
+
+bot_all_weapons -> Este comando deixa todos os bots com todas as armas.
+----------- 
+bot_difficulty [0-3] -> Este comad. determina a dificuldade de todos os bots recentemente criados (os bots existentes não aceitarão os ajuste da dificuldade). 0 = fácil, 1 = normal, 2 = dificil, 3 = Expert.
+
+bot_quota <número mínimo dos bots> -> Ajusta um valor que fará com que o número dado seja o número de bot mantido no jogo. Se um bot for kickado, um bot novo será adicionado para manter o quota. Para retirar a quota, ajuste para zero.
+
+bot_prefix <string> -> <string> Será fixada a todos os nomes subseqüente adicionados dos bots. Isto é útil para "clan-etiquetar" bots.
+
+bot_join_team [ct, t, any] -> Determina que equipe os bots se juntarão. 
+
+bot_join_after_player [0,1] -> se nonzero, os bots esperará para juntar o jogo até que ao menos um jogador humano junte.
+
+bot_allow_pistols - bot_allow_shotguns - bot_allow_sub_machine_guns - bot_allow_rifles - bot_allow_machine_guns - bot_allow_grenades - bot_allow_snipers - bot_allow_shield
+--> todos dos os comds "bot_allow" pode ser 0 ou 1. Se o valor for 0, os bots não compram e nem não usam a arma da categoria escolhida.
+bot_allow_rogues [0,1] -> Se o valor for 0 todos os bots responderão a todos os comandos de rádio com "negativo".
+
+
+--- EDITANDO OS ARQUIVOS *.NAV ---
+Cada um dos seguintes comandos do bot_nav_ opera sobre os arquivos de navegação(*.nav), permitindo ajustar "a mão" os dados automaticamente aprendidos. Recomenda-se que estes comandos estejam limitados aos servers para a facilidade de utilização ao editar.
+
+bot_nav_mark -> Marca a área atualmente selecionada do nav para umas operações mais atrasadas.
+
+bot_nav_delete -> Suprime a área atualmente selecionada do nav.
+
+bot_nav_split -> Parte a área atualmente selecionada do nav em duas áreas novas do nav, ao longo da linha partida.
+
+bot_nav_merge -> Funde a área atualmente selecionada do nav e uma área previamente marcada do nav em uma área nova, única do nav. A fusão ocorrerá somente se as duas áreas forem do mesmo tamanho ao longo da linha da fusão.
+
+bot_nav_connect -> Cría uma ligação DE SENTIDO ÚNICO da área atualmente marcada à área atualmente selecionada, dizendo os bots que podem andar da área marcada à área selecionada. Para a maioria de áreas, você deverá conectar as áreas em ambos os sentidos.
+
+bot_nav_disconnect -> Desconecta TODAS AS conexões da área atualmente marcada à área atualmente selecionada.
+
+bot_nav_begin_area -> Marca um canto da área.
+
+bot_nav_end_area -> Marca o canto oposto da área e cría-o.
+
+bot_nav_splice -> Cría uma área nova do nav entre a área atualmente marcada e a área atualmente selecionada, e conecta bidirecionado-a área nova. Este comando é especial, útil para criar áreas inclinadas do nav.
+
+bot_nav_crouch -> Marca a área atualmente selecionada como "abaixado", requerendo que bots fiquem abaixados para se mover através dele.
+
+bot_nav_jump -> Marca a área atualmente selecionada como "salto". Esta é uma sugestão aos bots que devem saltar para atravessar esta área.
+-----------
+bot_nav_analyze -> Analisa a navegação para determinar pontos da aproximação e para encontrar pontos.
+
+bot_nav_save -> Salva a navegação no disco.
+
+bot_nav_load -> Cancela a atual navegação, e carrega ela do disco.
+-----------
+bot_nav_edit [0,1] -> Ajustando este comd. pra 1, permite ajustar a "mão" o arquivo de navegação do bot. Edite uma vez a modalidade foi ativado, bot_nav _ * os comandos podem ser usados.
+
+bot_nav_zdraw <valor da altura> -> Este valor determina como a elevação acima da terra extrair do "arquivo de nav" quando no nav edita a modalidade. Se o terreno for muito irregular ou inclinado altamente, pode ser útil aumentar este valor a 10 ou a 15. O valor de defeito é 4.
+
+bot_quicksave [0,1] -> se nonzero, a fase de análise da aprendizagem do mapa será saltado. Isto é útil quando o nav iterativa mão-ajustando arquiva. Anote esse withough esta análise, os bots não olhará em torno do mundo corretamente.
+
+
+--- ELIMINANDO ERROS ---
+[b]bot_walk [0,1] -> força todos os bots para andar (disallow o corredor).
+
+bot_stop [0,1] -> se nonzero, todos os bots parará de mover-se e responder.
+
+bot_show_nav [0,1] -> se nonzero, o engranzamento do nav perto de cada bot é extraído.
+
+bot_show_danger [0,1] -> se nonzero, o "perigo" em cada área do nav é tração como uma linha vertical. As linhas azuis representam o perigo para CTs, e as linhas vermelhas são perigo para ts.
+
+bot_traceview <valor> -> usou-se para eliminar erros interno da navegação do bot.
+
+bot_debug <valor> -> usou-se para eliminar erros interno do comportamento do bot. 
+
+
+--- Variados ---
+bot_about -> indica o número da versão do bot, e a informação sobre o autor do bot.
+
+bot_goto_mark -> faz com que um bot no mapa mova-se para o centro da área atualmente marcada. Isto é útil para testar o walkability de parcelas específicas do engranzamento da navegação.
+
+
+
+Traduzido by ©csbrazucas.com

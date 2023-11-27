@@ -1,0 +1,24 @@
+#
+# Load media player
+#
+
+dbg.dll
+FileSystem_Stdio.dll
+FileSystem_Steam.dll
+MediaBrowser.dll
+mediabrowser_english.txt
+MediaBrowserDialog.res
+MediaList.txt
+TrackerScheme.res
+vgui2.dll
+
+
+
+#
+# Load movies
+#
+# 1st movie listed should be the one newly enbabled for this version
+# 2nd movie should be the one that will be enabled for next version
+# Next comes all movies that have already been released
+
+media\movies\HL2-Barricade.exe

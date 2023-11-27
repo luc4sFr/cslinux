@@ -1,0 +1,23 @@
+Error:Failed to load dialog file Resource/UI/ClassMenu.res
+
+
+Function trace:
+CGameUI::Start
+CGameUI::Initialize
+CBaseUI::Start
+CBaseUI::Initialize
+Host_Init
+Host_Shutdown
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonclickrelease.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+CGameUI::ActivateGameUI
+CGameUI::Start
+CGameUI::Initialize
+CBaseUI::Start
+CBaseUI::Initialize
+Host_Init

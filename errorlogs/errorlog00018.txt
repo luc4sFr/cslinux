@@ -1,0 +1,68 @@
+Error:Failed to load dialog file Resource/UI/ClassMenu.res
+
+
+Function trace:
+CGameUI::Start
+CGameUI::Initialize
+CBaseUI::Start
+CBaseUI::Initialize
+Host_Init
+Host_Shutdown
+S_Play  sound/UI/buttonclickrelease.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+Netchan_Clear reliable_ack  1
+Netchan_Clear reliable_seq  1
+S_Play  sound/UI/buttonclickrelease.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  player/pl_step4.wav
+CL_ParseClientdata()
+S_Play  player/pl_step3.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  sound/UI/buttonrollover.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  sound/UI/buttonrollover.wav
+S_Play  sound/UI/buttonrollover.wav
+S_Play  player/pl_step4.wav
+CL_ParseClientdata()
+S_Play  sound/UI/buttonrollover.wav
+S_Play  player/pl_step1.wav
+S_Play  weapons/zoom.wav
+CL_ParseClientdata()
+S_Play  player/pl_step4.wav
+CL_ParseClientdata()
+S_Play  sound/UI/buttonrollover.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  player/pl_step3.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  weapons/zoom.wav
+CL_ParseClientdata()
+S_Play  items/gunpickup2.wav
+CL_ParseClientdata()
+S_Play  sound/UI/buttonrollover.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  weapons/zoom.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  weapons/ric2.wav
+S_Play  weapons/awp1.wav
+CL_ParseClientdata()
+S_Play  player/pl_step4.wav
+CL_ParseClientdata()
+S_Play  weapons/zoom.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  player/pl_step3.wav
+CL_ParseClientdata()

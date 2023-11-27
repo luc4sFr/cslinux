@@ -1,0 +1,17 @@
+Castle By Josh W 
+(joshw@uclink4.berkeley.edu)
+Textures included with CS 6.6
+
+Background: Four unlucky tourists have 
+stumbled upon a secret drug operation, 
+headquartered in an old castle on a remote 
+Scottish Isle. They alerted authorities just
+before getting captured by the drug dealers.
+
+Counter-Terrorists: Rescue the hostages.
+Terrorists: Stop the CT's.
+Other Notes: There are two hostage rescue 
+points on the map. 
+Thanks D-L ;-)
+
+(Press FIRE to continue)

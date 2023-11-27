@@ -1,0 +1,29 @@
+CS Texture Filter
+
+Estes arquivos são os "Detail Textures", usados pelo Condition Zero, que adicionam
+texturas de alta qualidade ao jogo, fazendo seu CS ficar parecido ao Condition Zero.
+
+Instalação:
+
+Extraia todos os arquivos para sua pasta Cstrike
+
+Exemplo para usuários de Steam:
+C:\Arquivos de programas\Valve\Steam\Steamapps\SuaConta\Counter-Strike\cstrike
+
+Para usuários de No-Steam:
+C:\Arquivos de programas\Valve\cstrike
+
+São apenas exemplos, você deve lembrar onde instalou o Steam ou o CS No-Steam para instalar
+estes arquivos.
+
+Quando entrar no jogo, digite no console "r_detailtextures 1" sem as aspas 
+e as texturas serão aplicadas
+
+Nota: Você terá uma perda de performance com essas texturas pois exige mais do hardware do seu
+computador.
+
+
+Divirta-se!
+
+
+www.csbrazucas.com

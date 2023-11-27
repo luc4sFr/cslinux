@@ -1,0 +1,39 @@
+"Media"
+{
+	"1"
+	{
+		"Name"	"G-Man"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-G-Man.exe"
+	}
+	"2"
+	{
+		"Name"	"Docks"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-Docks.exe"
+	}
+	"3"
+	{
+		"Name"	"Kleiner's Lab"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-Kleiners_Lab.exe"
+	}
+	"4"
+	{
+		"Name"	"Traptown"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-Traptown.exe"
+	}
+	"5"
+	{
+		"Name"	"Tunnels"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-Tunnels.exe"
+	}
+	"6"
+	{
+		"Name"	"Bugbait"
+		"Type"	"Video"
+		"File"	"media/movies/HL2-Bugbait.exe"
+	}
+}

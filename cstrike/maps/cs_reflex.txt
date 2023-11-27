@@ -1,0 +1,20 @@
+cs_reflex
+by TJF (tf@tweak3d.net)
+custom textures by TJF
+
+Both teams start on opposite ends of a
+map which is separated by a metal wall in
+the middle.
+
+Every 5 seconds, the fence will raise and
+will close in another 5 seconds
+
+Other Notes: Use the time when the wall is
+closed to your advantage by quickly changing
+positions. This map requires quick reflex
+and good aim, training your skills with all
+guns. 
+
+Tip: Remember which guns can penetrate walls.
+
+(Press FIRE to continue)

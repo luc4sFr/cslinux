@@ -1,0 +1,8 @@
+Error:Failed to load dialog file Resource/UI/ClassMenu.res
+
+
+Function trace:
+CGameUI::Start
+CGameUI::Initialize
+CGameUI::StartProgressBar
+CGameUI::ActivateGameUI

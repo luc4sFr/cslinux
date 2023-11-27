@@ -1,0 +1,16 @@
+cs_militia - Hostage Rescue
+by Mojo (mojouser@hotmail.com
+Original by Andrew Aumann
+
+Counter-Terrorists: Enter Cliffe's 
+Compound to rescue the hostages. Take 
+out the Terrorists without jeopardizing 
+the hostages.
+
+Terrorists: Prevent the Counter-Terrorist
+force from rescuing the hostages.
+
+Other Notes: There are 4 hostages in 
+the mission and one floater. 
+
+(Press FIRE to continue)

@@ -1,0 +1,68 @@
+Error:Failed to load dialog file Resource/UI/ClassMenu.res
+
+
+Function trace:
+CGameUI::Start
+CGameUI::Initialize
+CBaseUI::Start
+CBaseUI::Initialize
+Host_Init
+Host_Shutdown
+CL_ParseClientdata()
+S_Play  player/pl_step1.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  player/pl_step4.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  items/gunpickup2.wav
+S_Play  items/gunpickup2.wav
+S_Play  weapons/knife_deploy1.wav
+CL_ParseClientdata()
+S_Play  player/pl_step1.wav
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+CL_ParseClientdata()
+S_Play  !MRAD_LETSGO
+CL_ParseClientdata()
+S_Play  items/gunpickup2.wav
+S_Play  items/gunpickup2.wav
+S_Play  items/gunpickup2.wav

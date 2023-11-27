@@ -1,0 +1,17 @@
+cs_city_assault
+Remake by: Organic700 (organic700@gmx.net)
+
+
+
+--==--Counter-Terrorists--==-- 
+
+Rescue all the hostages in the warehouse.
+Eliminate all Terrorists!
+
+
+
+--==--Terrorists--==-- 
+
+Prevent the Counter-Terrorists
+from rescuing the hostages in the warehouse!
+
